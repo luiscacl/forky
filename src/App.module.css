@@ -1,0 +1,22 @@
+
+
+.app{
+    display: grid;
+    grid-template-columns: 18rem auto;
+    grid-template-rows: 5.3rem auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    overflow: hidden;
+    
+    background-color: rgb(255, 233, 203);
+    width: 80%;
+    max-width: 60rem;
+    height: 35rem;
+    border-radius: 1rem;
+    overflow-x: hidden;
+}
+
+

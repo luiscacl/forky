@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+
+
+.form {
+  display:flex;
+  justify-content: space-between;
+  border-radius: 2rem;
+  overflow: hidden;
+  height: 2.6rem;
+  outline: 1px solid #d3d3d3;
+  width: 25rem;
+  background-color: white;
+}
+
+
+.input {
+  font-size: 1rem;
+  font-family: 'Chivo', sans-serif;
+
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+  border:none;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form:focus-within { 
+  outline: 1px solid #ffb066 
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  width: 9rem;
+  font-size: 1rem;
+  font-family: 'Chivo', sans-serif;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 0.6rem;
+  
+  border:1px solid #ffb066;
+  background: linear-gradient(to right, #ffb066, #ff5e62);
+  color:white;
+}
+
+.search {
+  font-size: 1.1rem;
+}

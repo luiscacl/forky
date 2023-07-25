@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+.meal-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f0e5;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.title{
+    background: linear-gradient(to right, #ffb066, #ff5e62);
+    text-align: center;
+    padding: 5px;
+    transform: skew(-3deg) rotate(-3deg);
+    color: white;
+    transform-origin: top left;
+    max-width: 22rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 19rem;
+}
+
+.title h1 {
+    display: inline-block;
+    transform-origin: top left;
+    transform: skew(3deg);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.2rem;
+    font-family: 'Chivo', sans-serif;
+    font-weight: bold;
+}
+
+.minutes-servings {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+}
+
+.minutes-servings p {
+    margin-left: 3rem;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+.icon {
+    color: #ff5e62;
+}
+
+.bookmark-container-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ffb066, #ff5e62);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.bookmark-container-default .icon {
+    color: white;
+}
+
+.bookmark-container-bookmarked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border: 2.5px solid #ffb066;
+}
+
+.bookmark-container-bookmarked .icon {
+    color: linear-gradient(to right, #ffb066, #ff5e62);
+}
+
+.plus {
+    margin-left: 0.2rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.minus {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+.ingredients-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #e7e1d6;
+    width: 100%;
+    height: 15rem;
+}
+.ingredients-container h1 {
+    font-size: 1rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    color: #ff5e62;
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.07rem;
+    margin: 1rem 0;
+}
+.ingredients-container p {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}
+
+.button-cook {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 2.2rem;
+  width: 11rem;
+  font-size: 1rem;
+  font-family: 'Chivo', sans-serif;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 0.6rem;
+  margin-right: 3rem;
+  margin-bottom: 1.1rem;
+  
+  border:1px solid #ffb066;
+  background: linear-gradient(to right, #ffb066, #ff5e62);
+  color:white;
+}
+
+.check {
+    margin: 0;
+    margin-right: 0.7rem;
+    color: #ff5e62;
+}
+
+.right-arrow {
+    font-size: 1.1rem;
+}
+
+.default-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.05rem;
+}
+
+.happy-face {
+    font-size: 1.6rem;
+    margin-right: 0.6rem;
+}
+
+a {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    justify-self: flex-end;
+    align-self: flex-end;
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
