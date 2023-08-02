@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/forky/static/css/main.fa1e67b7.css",
+    "main.js": "/forky/static/js/main.909fb2bb.js",
+    "static/media/forky.png": "/forky/static/media/forky.a665a62652bd814f4696.png",
+    "index.html": "/forky/index.html",
+    "main.fa1e67b7.css.map": "/forky/static/css/main.fa1e67b7.css.map",
+    "main.909fb2bb.js.map": "/forky/static/js/main.909fb2bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa1e67b7.css",
+    "static/js/main.909fb2bb.js"
+  ]
+}
